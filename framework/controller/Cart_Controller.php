@@ -202,10 +202,11 @@ class Cart_Controller extends Controller
     {
         $cart = self::getCurrentCart();
         $total = 0;
-        foreach ($cart as $key => $value) {
-            $product = Product_Controller::getProduct($key);
-            $total += $product->price * $value;
-        }
+        if ($cart)
+            foreach ($cart as $key => $value) {
+                $product = Product_Controller::getProduct($key);
+                $total += $product->price * $value;
+            }
         return $total;
     }
 
@@ -227,9 +228,9 @@ class Cart_Controller extends Controller
     {
         $cart = self::getCurrentCart();
         $count = 0;
-        foreach ($cart as $el) {
-            $count += $el;
-        }
+        if ($cart)
+            foreach ($cart as $el)
+                $count += $el;
         return $count;
     }
 }
