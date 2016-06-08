@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="de_DE">
+<html lang="de">
 <head>
     <meta charset="utf-8">
     <title>{{METATITLE}} | WW-Shop</title>
@@ -22,7 +22,7 @@
     <div class="maw-container">
         <div class="row">
             <div class="col-4">
-                <a href="{{BASEHREF}}" title="WW-Shop"><img src="{{BASEHREF}}theme/img/logo.png"></a>
+                <a href="{{BASEHREF}}" title="WW-Shop"><img src="{{BASEHREF}}theme/img/logo.png" alt="WW-Shop Logo"></a>
             </div>
             <div class="col-8">
                 <nav>
@@ -50,8 +50,8 @@
                 <nav>
                     <ul class="footernav">
                         <li><a href="{{BASEHREF}}">Home</a></li>
-                        <li><a href="{{BASEHREF}}books">Bücher</a></li>
-                        <li><a href="{{BASEHREF}}contact">Kontakt</a></li>
+                        <li><a href="{{BASEHREF}}produkte">Bücher</a></li>
+                        <li><a href="{{BASEHREF}}kontakt">Kontakt</a></li>
                         <li><a href="{{BASEHREF}}impressum">Impressum</a></li>
                     </ul>
                 </nav>

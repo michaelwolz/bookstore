@@ -1,12 +1,12 @@
 <div id="intro">
-    <img src="{{BASEHREF}}theme/img/intro.jpg" title="Lies mehr Bücher">
+    <img src="{{BASEHREF}}theme/img/intro.jpg" title="Lies mehr Bücher" alt="Introbild">
 </div>
 <div id="offers">
     <h3>Unsere Buchempfehlungen für Sie</h3>
     <div class="row">
         <div class="col-3">
             <div class="shop-item">
-                <a href="{{BASEHREF}}book/item/1"><img src="{{BASEHREF}}data/assets/die-dunklen-krieger.jpg" title="Die dunklen Krieger"></a>
+                <a href="{{BASEHREF}}book/item/1"><img src="{{BASEHREF}}data/assets/die-dunklen-krieger.jpg" title="Die dunklen Krieger" alt="Cover: Die dunklen Krieger"></a>
                 <div class="title">Die dunklen Krieger (Die Uhtred-Saga, Band 9)</div>
                 <div class="description">"Im 9 Band wird wieder ordentlich draufgehauen"</div>
                 <div class="price">10.99€ <span class="details"><a href="{{BASEHREF}}book/item/1"><i class="fa fa-search" aria-hidden="true"></i> Details</a></span></div>
@@ -14,7 +14,7 @@
         </div>
         <div class="col-3">
             <div class="shop-item">
-                <a href="{{BASEHREF}}book/item/4"><img src="{{BASEHREF}}data/assets/ein-ganzes-halbes-jahr.jpg" title="Ein ganzes halbes Jahr"></a>
+                <a href="{{BASEHREF}}book/item/4"><img src="{{BASEHREF}}data/assets/ein-ganzes-halbes-jahr.jpg" title="Ein ganzes halbes Jahr" alt="Cover: Ein ganzes halbes Jahr"></a>
                 <div class="title">Ein ganzes halbes Jahr</div>
                 <div class="description">"Berührendes Buch mit einem Ende, das einen nicht loslässt"</div>
                 <div class="price">9.99€ <span class="details"><a href="{{BASEHREF}}book/item/4"><i class="fa fa-search" aria-hidden="true"></i> Details</a></span></div>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-3">
             <div class="shop-item">
-                <a href="{{BASEHREF}}book/item/3"><img src="{{BASEHREF}}data/assets/sturmwarnung.jpg" title="Sturmwarnung"></a>
+                <a href="{{BASEHREF}}book/item/3"><img src="{{BASEHREF}}data/assets/sturmwarnung.jpg" title="Sturmwarnung" alt="Cover: Sturmwarnung"></a>
                 <div class="title">Sturmwarnung</div>
                 <div class="description">"Charmant tabulos"</div>
                 <div class="price">29.90€ <span class="details"><a href="{{BASEHREF}}book/item/3"><i class="fa fa-search" aria-hidden="true"></i> Details</a></span></div>
@@ -30,7 +30,7 @@
         </div>
         <div class="col-3">
             <div class="shop-item">
-                <a href="{{BASEHREF}}book/item/2"><img src="{{BASEHREF}}data/assets/und-am-morgen-waren-sie-tot.jpg" title="Und am morgen waren sie tot"></a>
+                <a href="{{BASEHREF}}book/item/2"><img src="{{BASEHREF}}data/assets/und-am-morgen-waren-sie-tot.jpg" title="Und am morgen waren sie tot" alt="Cover: Und am morgen waren sie tot"></a>
                 <div class="title">Und am Morgen waren sie tot</div>
                 <div class="description">"Toppt sogar noch das Debüt"</div>
                 <div class="price">9.99€ <span class="details"><a href="{{BASEHREF}}book/item/2"><i class="fa fa-search" aria-hidden="true"></i> Details</a></span></div>

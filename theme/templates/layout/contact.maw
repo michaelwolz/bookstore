@@ -40,6 +40,6 @@
         </div>
     </div>
     <div class="col-4">
-        <img src="{{BASEHREF}}theme/img/contact.png">
+        <img src="{{BASEHREF}}theme/img/contact.png" alt="Kontaktieren Sie uns">
     </div>
 </div>

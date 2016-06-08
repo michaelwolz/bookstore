@@ -1,5 +1,5 @@
 <div id="book-{{ID}}" class="row book {{CATEGORY}}">
-    <div class="col-2"><img src="{{COVER}}"></div>
+    <div class="col-2"><img src="{{COVER}}" alt="Buchcover"></div>
     <div class="col-7">
         <div class="booktitle">{{TITLE}}</div>
         <div class="author">von {{AUTHOR}}</div>

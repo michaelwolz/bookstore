@@ -1,5 +1,5 @@
 <tr>
-    <td class="bookcover"><img src="{{COVER}}"></td>
+    <td class="bookcover"><img src="{{COVER}}" alt="Buchcover"></td>
     <td>
         <strong>{{TITLE}}</strong><span><a href="{{BASEHREF}}cart/delete/{{ID}}" class="removeFromCart"><i
             class="fa fa-times" aria-hidden="true"></i>

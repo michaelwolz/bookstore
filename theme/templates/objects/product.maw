@@ -1,7 +1,7 @@
 <div id="book-{{ID}}" class="book">
     <h1>{{TITLE}}</h1>
     <div class="row">
-        <div class="col-3"><img src="{{COVER}}"></div>
+        <div class="col-3"><img src="{{COVER}}" alt="Buchcover"></div>
         <div class="col-6">
             <div class="author"><strong>Autor: {{AUTHOR}}</strong></div>
             <div class="summary"><p>{{SUMMARY}}</p></div>
