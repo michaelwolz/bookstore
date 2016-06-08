@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "urlSegment": "/",
+    "pageType": "Home",
+    "content": "" ,
+    "metaTitle": "Home",
+    "metaDescription": "Willkommen im WW-Shop von Aaron Winziers und Michael Wolz"
+  },
+  {
+    "id": 2,
+    "title": "Kontakt",
+    "urlSegment": "kontakt",
+    "pageType": "Contact",
+    "content": "Senden Sie uns jetzt einfach eine Nachricht über unser Kontaktformular und wir werden uns in Kürze mit Ihnen in Verbindung setzen.",
+    "metaTitle": "Kontakt",
+    "metaDescription": "Nehmen Sie jetzt Kontakt mit uns auf."
+  },
+  {
+    "id": 3,
+    "title": "Bücher",
+    "urlSegment": "produkte",
+    "pageType": "ProductHolder",
+    "content": "",
+    "metaTitle": "Unser Bücher",
+    "metaDescription": "Hier finden Sie all unsere Produkte."
+  },
+  {
+    "id": 4,
+    "title": "Impressum",
+    "urlSegment": "impressum",
+    "pageType": "Page",
+    "content": "<p><strong>Praktikum Kleines Studienprojekt<br>Universität Tirer</strong></p><p>Name: Michael Wolz<br>Matrikelnummer: 1195270</p><p>Name: Aaron Winziers<br>Matrikelnummer: 1176638<h2>Quellenangaben:</h2><ul><li>Logo: <a href=\"http://www.psdbird.com/free-nerd-geek-man-logo-template-psd/\" target=\"_blank\">http://www.psdbird.com</a></li><li>Kontakt: <a href=\"http://vectorcharacters.net/geek-vector-characters/nerd-vector-character\" target=\"_blank\">http://vectorcharacters.net</a></li><li>Icons: <a href=\"http://fontawesome.io\" target=\"_blank\">Font-Awesome</a></li><li>Font: <a href=\"https://www.google.com/fonts/specimen/Arvo\" target=\"_blank\">Arvo (Google Font)</a></li><li>Bild (Startseite): <a href=\"https://picjumbo.com/girl-reading-a-book-at-home/\" target=\"_blank\">https://picjumbo.com/</a></li></ul>",
+    "metaTitle": "Impressum",
+    "metaDescription": "Wichtige angaben."
+  },
+  {
+    "id": 5,
+    "title": "Buch",
+    "urlSegment": "book",
+    "pageType": "Product",
+    "content": "",
+    "metaTitle": "Detailansicht",
+    "metaDescription": "Detailansicht von Büchern"
+  },
+  {
+    "id": 6,
+    "title": "Warenkorb",
+    "urlSegment": "cart",
+    "pageType": "Cart",
+    "content": "",
+    "metaTitle": "Warenkorb",
+    "metaDescription": ""
+  }
+]

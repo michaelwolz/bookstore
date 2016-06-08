@@ -1,0 +1,84 @@
+@import "compass"
+@import mawcss/src/variables
+
+@import "books"
+@import "contact"
+@import "cart"
+
+body
+  font-size: 16px //base Font Size
+  background-color: #f4f3ef
+  font-family: 'Arvo', serif
+
+#intro
+  margin: 10px 0 40px 0
+  img
+    border: 5px solid white
+
+footer
+  margin-top: 40px
+  background-color: $brown
+  padding: 40px 0
+  h3
+    margin-top: 0
+  color: white
+  .footerbox
+    line-height: 1.7
+    font-size: 0.9rem
+    a
+      text-decoration: none
+
+h1, h2, h3
+  border-bottom: 3px solid $primary
+  padding-bottom: 5px
+
+img
+  max-width: 100%
+
+.nav
+  .maw-button
+    display: inline
+    margin-left: 15px
+    position: relative
+    &:before
+      margin-right: 10px
+      content: "\f218 "
+      display: inline-block
+      font: normal normal normal 20px/1 FontAwesome
+    @media (max-width: 991px)
+      margin-left: 0
+
+.shop-item
+  img
+    border: 5px solid white
+  .title
+    font-weight: bold
+    margin: 10px 0
+    min-height: 2.5rem
+  .description
+    font-style: italic
+    font-family: "Helvetica", sans-serif
+    margin-bottom: 20px
+    min-height: 2.5rem
+  .price
+    color: $grey
+  .details
+    float: right
+
+#filter
+  background-color: $grey-lighter
+  border-radius: 2px
+  padding: 10px 20px
+  font-weight: bold
+  margin-bottom: 20px
+  a
+    position: relative
+    color: $grey
+    padding: 0 15px
+    &.active, &:hover
+      color: $primary
+    &:before
+      margin-right: 4px
+      content: "\f02c"
+      display: inline-block
+      font: normal normal normal 18px/1 FontAwesome

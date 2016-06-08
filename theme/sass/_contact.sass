@@ -1,0 +1,32 @@
+.formwrapper
+  margin-top: 40px
+#contactform, #payform
+  #success, #failure
+    display: none
+    border-radius: 2px
+    padding: 10px 20px
+    i
+      margin-right: 10px
+  #success
+    color: #4F8A10
+    background-color: #DFF2BF
+  #failure
+    color: #D8000C
+    background-color: #FFBABA
+  &.success
+    #success
+      display: block
+  &.faliure
+    #failure
+      display: block
+  &.success, &.failure
+    form
+      display: none
+
+#payform
+  h3
+    border-bottom: none
+    margin-bottom: 0
+  .maw-button
+    margin-top: 40px
+    width: 100%

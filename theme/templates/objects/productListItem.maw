@@ -1,0 +1,27 @@
+<div id="book-{{ID}}" class="row book {{CATEGORY}}">
+    <div class="col-2"><img src="{{COVER}}"></div>
+    <div class="col-7">
+        <div class="booktitle">{{TITLE}}</div>
+        <div class="author">von {{AUTHOR}}</div>
+        <div class="summary">{{SUMMARY}}</div>
+        <div class="details"><a href="{{LINK}}">Detailansicht</a></div>
+        <div class="category"><span>{{CATEGORY}}</span></div>
+    </div>
+    <div class="col-3 buybox">
+        <div class="price">
+           {{PRICE}}
+        </div>
+        <form method="POST" action="{{BASEHREF}}cart/add/{{ID}}">
+            <label><strong>Menge: </strong>
+                <select name="amount" data-maxamount="{{MAXAMOUNT}}" onchange="checkMax(this);">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+            <button type="submit" class="addToCart maw-button primary">In den Warenkorb</button>
+        </form>
+    </div>
+</div>

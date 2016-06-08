@@ -1,0 +1,101 @@
+<h1>{{TITLE}}</h1>
+{{STATUS}}
+
+{{CART}}
+
+<table id="totaltable" class="{{SHOWPAYMENT}}">
+    <tr>
+        <td>Versandkosten</td>
+        <td class="price">{{SHIPPING}}€</td>
+    </tr>
+    <tr>
+        <td>Gesamtkosten (inkl. 19% MwSt.)</td>
+        <td class="price">{{TOTAL}}€</td>
+    </tr>
+</table>
+
+<div id="paymentwrapper" class="{{SHOWPAYMENT}}">
+    <h2>Versand & Zahlung</h2>
+    <div id="payform">
+        <form action="{{BASEHREF}}cart/buy" method="POST" class="maw-form" onsubmit="return validateForm();">
+            <h3>Lieferanschrift:</h3>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">Vorname*:</label>
+                        <input type="text" id="name" name="name" data-required="true" placeholder="Vorname">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">Nachname*:</label>
+                        <input type="text" id="surname" name="surname" data-required="true" placeholder="Nachname">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">E-Mail-Adresse:*</label>
+                        <input type="email" id="email" name="email" data-required="true" placeholder="E-Mail-Adresse">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="street">Straße & Haus-Nr.*:</label>
+                        <input type="text" id="street" name="street" data-required="true" placeholder="Straße & Haus-Nr.">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">Postleitzahl*:</label>
+                        <input type="text" id="plz" name="plz" data-required="true" placeholder="Postleitzahl">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">Stadt*:</label>
+                        <input type="text" id="city" name="city" data-required="true" placeholder="Stadt">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Anmerkungen:</label>
+                <textarea name="message" id="message" rows="3" placeholder="Anmerkungen"></textarea>
+            </div>
+            <h3>Zahlungsinformationen:</h3>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">Kontoinhaber*:</label>
+                        <input type="text" id="owner" name="owner" data-required="true" placeholder="Kontoinhaber">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">Bank*:</label>
+                        <input type="text" id="bank" name="bank" data-required="true" placeholder="Bank">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">IBAN*:</label>
+                        <input type="text" id="iban" name="iban" data-required="true" placeholder="IBAN">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="name">BIC*:</label>
+                        <input type="text" id="bic" name="bic" data-required="true" placeholder="BIC">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="maw-button primary"><i class="fa fa-credit-card" aria-hidden="true"></i> Jetzt zahlungspflichtig bestellen</button>
+        </form>
+    </div>
+</div>

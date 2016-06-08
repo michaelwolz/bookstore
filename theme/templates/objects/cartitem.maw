@@ -1,0 +1,14 @@
+<tr>
+    <td class="bookcover"><img src="{{COVER}}"></td>
+    <td>
+        <strong>{{TITLE}}</strong><span><a href="{{BASEHREF}}cart/delete/{{ID}}" class="removeFromCart"><i
+            class="fa fa-times" aria-hidden="true"></i>
+        Diese Produkt entfernen</a></span>
+    </td>
+    <td class="price">{{PRICE}}€</td>
+    <td class="amount">
+        <form id="form{{ID}}" method="POST" action="{{BASEHREF}}cart/update/{{ID}}">
+            <input type="number" min="1" max="10" data-maxamount="{{MAXAMOUNT}}" value="{{AMOUNT}}" name="amount" onchange="checkAndSubmit(this, 'form{{ID}}');">
+        </form>
+    </td>
+</tr>

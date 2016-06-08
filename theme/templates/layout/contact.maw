@@ -1,0 +1,45 @@
+<h1>{{TITLE}}</h1>
+<p>
+    {{CONTENT}}
+</p>
+<div class="row formwrapper">
+    <div class="col-8">
+        <div id="contactform" class="{{SUCCESS}}">
+            <form action="{{URLSEGMENT}}/send" method="POST" class="maw-form" onsubmit="return validateForm();">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="name">Name*:</label>
+                            <input type="text" id="name" name="name" data-required="true" placeholder="Max Mustermann">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="email">Email-Adresse*:</label>
+                            <input type="email" id="email" name="email" data-required="true" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Betreff*:</label>
+                    <input type="text" id="subject" name="subject" data-required="true" placeholder="Betreff">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Ihre Nachricht*:</label>
+                    <textarea name="message" id="message" data-required="true" rows="5" placeholder="Ihre Nachricht an uns"></textarea>
+                </div>
+                <button type="submit" class="maw-button primary"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Absenden</button>
+            </form>
+            <div id="failure">
+                <i class="fa fa-thumbs-down fa-2x" aria-hidden="true"></i> Oh hier ist wohl etwas schief gelaufen. Bitte probieren Sie es noch einmal.
+            </div>
+            <div id="success">
+                <i class="fa fa-thumbs-up fa-2x" aria-hidden="true"></i> Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze mit Ihnen in Verbindung setzen.
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <img src="{{BASEHREF}}theme/img/contact.png">
+    </div>
+</div>

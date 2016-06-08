@@ -1,0 +1,77 @@
+#status
+  border-radius: 2px
+  padding: 10px 20px
+  margin-bottom: 30px
+  &:before
+    content: ''
+    margin-right: 4px
+    display: inline-block
+    font: normal normal normal 18px/1 FontAwesome
+  &.error
+    color: #D8000C
+    background-color: #FFBABA
+    &:before
+      content: '\f057'
+  &.warning
+    color: #9F6000
+    background-color: #FEEFB3
+    &:before
+      content: '\f071'
+  &.success
+    color: #4F8A10
+    background-color: #DFF2BF
+    &:before
+      content: '\f046'
+
+#carttable
+  width: 100%
+  border-collapse: collapse
+  border-bottom: 2px solid $grey-light
+  margin-bottom: 20px
+  .bookcover
+    width: 140px
+    padding-right: 20px
+    @media (max-width: 991px)
+      display: none
+    img
+      border: 3px solid white
+  td
+    padding-top: 20px
+    padding-bottom: 20px
+    border-bottom: 1px solid $grey-lighter
+    input[type="number"]
+      text-align: right
+      font-family: "Helvetica", "Arial", sans-serif
+      font-size: 18px
+      border-radius: 2px
+      padding: 4px 10px
+      border: 1px solid #ccc
+      margin-top: -8px
+    .removeFromCart
+      display: block
+      margin-top: 20px
+  tr:last-of-type
+    td
+      border-bottom: none
+  td, th
+    vertical-align: top
+    &.title
+      text-align: left
+    &.price, &.amount
+      text-align: right
+
+#totaltable
+  width: 100%
+  border-collapse: collapse
+  font-weight: bold
+  margin-bottom: 80px
+  td
+    padding: 8px 0
+  .price
+    text-align: right
+  &.hide
+    display: none
+
+#paymentwrapper
+  &.hide
+    display: none

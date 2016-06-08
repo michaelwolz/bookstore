@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de_DE">
+<head>
+    <meta charset="utf-8">
+    <title>{{METATITLE}} | WW-Shop</title>
+    <meta name="description" content="{{METADESCRIPTION}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{BASEHREF}}theme/css/normalize.css">
+    <link rel="stylesheet" href="{{BASEHREF}}theme/css/mawcss/mawcss.css">
+    <link rel="stylesheet" href="{{BASEHREF}}theme/css/main.css">
+    <link rel="stylesheet" href="{{BASEHREF}}theme/css/font-awesome.min.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,400italic,700' rel='stylesheet' type='text/css'>
+
+    <link rel="icon" type="image/png" href="{{BASEHREF}}favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{BASEHREF}}favicon-16x16.png" sizes="16x16" />
+</head>
+<body>
+
+<header>
+    <div class="maw-container">
+        <div class="row">
+            <div class="col-4">
+                <a href="{{BASEHREF}}" title="WW-Shop"><img src="{{BASEHREF}}theme/img/logo.png"></a>
+            </div>
+            <div class="col-8">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="{{BASEHREF}}">Home</a></li>
+                        <li><a href="{{BASEHREF}}produkte">Bücher</a></li>
+                        <li><a href="{{BASEHREF}}kontakt">Kontakt</a></li>
+                        <li><a href="{{BASEHREF}}cart" id="cartstatus" class="maw-button primary">Warenkorb ({{CURRENTITEMS}})</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="maw-container">
+    {{Layout}}
+</div>
+
+<footer>
+    <div class="maw-container">
+        <div class="row">
+            <div class="col-8">
+                <h3>Links</h3>
+                <nav>
+                    <ul class="footernav">
+                        <li><a href="{{BASEHREF}}">Home</a></li>
+                        <li><a href="{{BASEHREF}}books">Bücher</a></li>
+                        <li><a href="{{BASEHREF}}contact">Kontakt</a></li>
+                        <li><a href="{{BASEHREF}}impressum">Impressum</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-4">
+                <h3>Kontakt</h3>
+
+                <div class="footerbox">
+                    <p><strong>WW-Shop</strong><br>
+                        Wolz & Winziers Books
+                    </p>
+
+                    <p>
+                        <a href="mailto:s4miwolz@uni-trier.de"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            Michael Wolz</a><br>
+                        <a href="mailto:s4miwolz@uni-trier.de"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            Aaron Winziers</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="{{BASEHREF}}theme/js/main.js"></script>
+</body>
+</html>

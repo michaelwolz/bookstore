@@ -1,0 +1,10 @@
+<h1>{{TITLE}}</h1>
+<div id="filter">
+    Filter:
+    <a href="#" id="Krimi" onclick="filter('Krimi'); return false;" class="filter">Krimi</a>
+    <a href="#" id="Roman" onclick="filter('Roman'); return false;" class="filter">Roman</a>
+    <a href="#" id="Dokumentation" onclick="filter('Dokumentation'); return false;" class="filter">Dokumentation</a>
+</div>
+<div id="bookoverview">
+    {{Books}}
+</div>

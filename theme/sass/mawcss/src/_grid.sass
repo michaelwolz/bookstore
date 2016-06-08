@@ -1,0 +1,26 @@
+.maw-container
+  width: 100%
+  max-width: 1200px
+  margin-left: auto
+  margin-right: auto
+  padding: 0 15px
+
+.row
+  margin: 0 -15px
+  &:before, &:after
+    content: ""
+    display: table
+    clear: both
+
+$col: 1
+@while $col <= 12
+  .col-#{$col}
+    width: 100% / 12 * $col
+  $col: $col + 1
+
+[class*='col-']
+  float: left
+  min-height: 1px
+  padding: 15px
+  @media (max-width: 991px)
+    width: 100%

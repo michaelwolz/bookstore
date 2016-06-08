@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Die dunklen Krieger (Die Uhtred-Saga, Band 9)",
+    "author": "Bernard Cornwell",
+    "price": 10.99,
+    "summary": "Bernard Cornwells Wikingerromane sind unglaublich erfolgreich und unfassbar gut. Auch als TV-Serie wurde«Das letzte Königreich» ein großer Erfolg. Der neunte historische Roman aus der Serie um den Krieger Uhtred mit dem Titel «Die dunklen Krieger» führt wieder ins 9. Jahrhundert, als sich im Ringen zwischen Nordmännern und Angelsachsen die englische Nation bildete.",
+    "description": "Der Frieden in England ist zerbrechlich. Nachdem Æthelflæd, die Tochter König Alfreds, nun über Mercien herrscht und ihr und Vasall und Geliebter Uhtred dessen nördliche Grenze hütet, scheint das Reich gesichert. Doch dann rückt eine mächtige Streitmacht aus verbündeten Iren und Nordmännern vor. Ihr Anführer ist der ebenso furchtbare wie furchtlose Ragnall Iverson. Ragnalls Bruder jedoch ist Uhtreds Schwiegersohn, und so kommt der Krieger in einen persönlichen Konflikt. Was wiegt schwerer: Die Treue eines Lehnsmannes oder die zur eigenen Familie?",
+    "category": "Krimi",
+    "cover": "data/assets/die-dunklen-krieger.jpg",
+    "amount": 4
+  },
+  {
+    "id": 2,
+    "title": "Und am Morgen waren sie tot",
+    "author": "Linus Geschke",
+    "price": 9.99,
+    "summary": "Oktober 1997: Zwei junge Pärchen zelten im deutsch-belgischen Grenzgebiet. Zwei Tage später wird eines der Paare tot im Wald gefunden, das andere bleibt verschwunden. Gegenwart: Der Kölner Reporter Jan Römer berichtet in der Rubrik »Ungelöste Kriminalfälle« über die Morde. Was geschah in jener Nacht in den Ardennen? Fiel das zweite Paar demselben Täter zum Opfer, oder brachten sie selbst ihre Freunde um und tauchten nach der Tat unter? Gemeinsam mit seiner besten Freundin Mütze beginnt Jan Römer zu ermitteln ― und sticht in ein Wespennest ...",
+    "description": "Sie gingen zelten. Und kehrten nie zurückOktober 1997: Zwei junge Pärchen zelten im deutsch-belgischen Grenzgebiet. Zwei Tage später wird eines der Paare tot im Wald gefunden, das andere bleibt verschwunden.Der Journalist Jan Römer berichtet Jahre später über den Fall. Gemeinsam mit seiner Kollegin Stefanie Schneider will er herausfinden, was in jener Nacht wirklich geschah. Er stößt dabei auf einen Gegner, der ebenso grausam wie manipulativ vorgeht – und auf ein Geheimnis, das weit in die deutsche Vergangenheit reicht ... Der Kölner Reporter Jan Römer ermittelt»Fesselnd konstruiert und hochspannend.«Stephan Orth/Spiegel OnlineOriginalausgabe",
+    "category": "Krimi",
+    "cover": "data/assets/und-am-morgen-waren-sie-tot.jpg",
+    "amount": 2
+  },
+  {
+    "id": 3,
+    "title": "Sturmwarnung",
+    "author": "Stefan Krücken",
+    "price": 29.90,
+    "summary": "Ein Leben wie ein ewiges Abenteuer: Orkane auf See, Stürme im Rotlicht der Häfen. Momente zwischen Leben und Tod. Kapitän Jürgen Schwandt, Jahrgang 1936, hat alles erlebt. Aufgewachsen in den Trümmern Hamburgs, ging er früh zur See - und tauchte ein in jene exotische Welt aus Fernweh und Sternenstaub, von der er immer geträumt hatte. Dabei lernte er auch früh die Schattenseiten der Seefahrt kennen: den unbarmherzigen Ozean und die harte Arbeit.",
+    "description": "Ein Leben wie ein ewiges Abenteuer: Orkane auf See, Stürme imRotlicht der Häfen. Momente zwischen Leben und Tod. Kapitän JürgenSchwandt, Jahrgang 1936, hat alles erlebt. Aufgewachsen in den Trümmern Hamburgs, ging er früh zur See - und tauchte ein in jene exotische Welt aus Fernweh und Sternenstaub, von der er immer geträumt hatte. Dabei lernte er auch früh die Schattenseiten der Seefahrt kennen: den unbarmherzigen Ozean und die harte Arbeit.STURMWARNUNG ist eine liebevoll und mit Augenzwinkern erzählteLebensgeschichte. Eine turbulente Biografie voller Weisheit, Toleranzund Zigaretten.",
+    "category": "Roman",
+    "cover": "data/assets/sturmwarnung.jpg",
+    "amount": 5
+  },
+  {
+    "id": 4,
+    "title": "Ein ganzes halbes Jahr",
+    "author": "Jojo Moyes",
+    "price": 9.99,
+    "summary": "Louisa Clark weiß, dass nicht viele in ihrer Heimatstadt ihren etwas schrägen Modegeschmack teilen. Sie weiß, dass sie gerne in dem kleinen Café arbeitet und dass sie ihren Freund Patrick eigentlich nicht liebt.",
+    "description": "Lou & Will Louisa Clark weiß, dass nicht viele in ihrer Heimatstadt ihren etwas schrägen Modegeschmack teilen. Sie weiß, dass sie gerne in dem kleinen Café arbeitet und dass sie ihren Freund Patrick eigentlich nicht liebt. Sie weiß nicht, dass sie schon bald ihren Job verlieren wird – und wie tief das Loch ist, in das sie dann fällt.Will Traynor weiß, dass es nie wieder so sein wird wie vor dem Unfall. Und er weiß, dass er dieses neue Leben nicht führen will.Er weiß nicht, dass er schon bald Lou begegnen wird. Eine Frau und ein Mann.Eine Liebesgeschichte, anders als alle anderen.Die Liebesgeschichte von Lou und Will.",
+    "category": "Roman",
+    "cover": "data/assets/ein-ganzes-halbes-jahr.jpg",
+    "amount": 2
+  },
+  {
+    "id": 5,
+    "title": "Elon Musk: Wie Elon Musk die Welt verändert",
+    "author": "Ashlee Vance",
+    "price": 19.99,
+    "summary": "Elon Musk ist der da Vinci des 21. Jahrhunderts. Seine Firmengründungen lesen sich wie das Who’s who der zukunftsträchtigsten Unternehmen der Welt. Alles, was dieser Mann anfasst, scheint zu Gold zu werden. Mit PayPal revolutionierte er das Zahlen im Internet, mit Tesla schreckte er die Autoindustrie auf und sein Raumfahrtunternehmen SpaceX ist aktuell das weltweit einzige Unternehmen, das ein Raumschiff mit großer Nutzlast wieder auf die Erde zurückbringen kann.",
+    "description": "Elon Musk ist der da Vinci des 21. Jahrhunderts. Seine Firmengründungen lesen sich wie das Whos who der zukunftsträchtigsten Unternehmen der Welt. Alles, was dieser Mann anfasst, scheint zu Gold zu werden. Mit PayPal revolutionierte er das Zahlen im Internet, mit Tesla schreckte er die Autoindustrie auf und sein Raumfahrtunternehmen SpaceX ist aktuell das weltweit einzige Unternehmen, das ein Raumschiff mit großer Nutzlast wieder auf die Erde zurückbringen kann.Dies ist die persönliche Geschichte hinter einem der größten Unternehmer seit Thomas Edison, Henry Ford oder Howard Hughes. Das Buch erzählt seinen kometenhaften Aufstieg von seiner Flucht aus Südafrika mit 17 Jahren bis heute. Elon Musk gilt als der »Real Iron Man« in Anlehnung an einen der erfolgreichsten Comichelden der Welt. Es ist die gleichsam inspirierende, persönliche und spannende Geschichte eines der erfolgreichsten Querdenker der Welt. In einem Umfang wie noch kein Journalist zuvor hatte Ashlee Vance für diese Biografie exklusiven und direkten Zugang zu Elon Musk, seinem familiären Umfeld und persönlichen Freunden.Mit 16 Seiten exklusiven und persönlichen Bildern aus Elon Musks persönlichem Fotoalbum.",
+    "category": "Dokumentation",
+    "cover": "data/assets/elon-musk.jpg",
+    "amount": 10
+  },
+  {
+    "id": 6,
+    "title": "Steve Jobs: Die autorisierte Biografie des Apple-Gründers",
+    "author": "Antoinette Gittinger, Oliver Grasmück, Dagmar Mallett",
+    "price": 12.99,
+    "summary": "Die erste umfassende und autorisierte Biografie über einen der revolutionärsten Entwickler der Welt: Steve Jobs!",
+    "description": "Macintosh, iMac, iPod, iTunes, iPhone, iPad – Steve Jobs hat der digitalen Welt mit der Kultmarke Apple Ästhetik und Aura gegeben. Wo Bill Gates für solide Alltagsarbeit steht, war der Mann aus San Francisco die Stilikone des IT-Zeitalters, ein begnadeter Vordenker, der kompromisslos seiner Idee folgte. Genial und selbstbewusst hat er trotz ökonomischer und persönlicher Krisen den Apfel mit Biss (Bite) zum Synonym für Innovation und Vision gemacht. Doch wer war dieser Meister der Inszenierung, was trieb ihn an? Walter Isaacson gewann das Vertrauen des Apple-Chefs und konnte als erster Biograf während der langjährigen Recherchen auf seine uneingeschränkte Unterstützung ebenso bauen wie auf die seiner Familie, seiner Weggefährten und auch der Kontrahenten. Entstanden ist d a s Buch über Steve Jobs und sein Unternehmen – nicht nur für Apple-Fans.",
+    "category": "Dokumentation",
+    "cover": "data/assets/steve-jobs.jpg",
+    "amount": 1
+  }
+]

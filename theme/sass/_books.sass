@@ -1,0 +1,64 @@
+#bookoverview
+  img
+    border: 5px solid white
+.book
+  position: relative
+  &.hide
+    display: none
+  &:not(:last-of-type)
+    border-bottom: 1px solid $grey-lighter
+    padding-bottom: 20px
+    margin-bottom: 20px
+  .booktitle
+    font-size: 1.2rem
+    font-weight: bold
+  .author
+    font-size: 0.9rem
+    color: $grey
+    font-weight: normal
+    font-family: "Helvetica", sans-serif
+    font-style: italic
+    margin-bottom: 20px
+  .summary
+    padding-bottom: 20px
+    height: 170px
+    overflow: hidden
+  .category
+    color: $primary
+    span
+      position: relative
+      &:before
+        margin-right: 4px
+        content: "\f02c"
+        display: inline-block
+        font: normal normal normal 18px/1 FontAwesome
+  .details
+    float: right
+    a
+      position: relative
+      &:before
+        margin-right: 4px
+        content: "\f002 "
+        display: inline-block
+        font: normal normal normal 18px/1 FontAwesome
+.buybox
+  text-align: right
+  .price
+    font-size: 3.4rem
+    font-style: italic
+    margin-bottom: 20px
+    color: $grey-dark
+    &:after
+      content: '€'
+  select
+    margin-left: 10px
+    margin-bottom: 20px
+
+.addToCart
+  position: relative
+  width: 100%
+  &:before
+    margin-right: 10px
+    content: "\f218 "
+    display: inline-block
+    font: normal normal normal 20px/1 FontAwesome
