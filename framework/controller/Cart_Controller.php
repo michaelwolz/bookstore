@@ -2,7 +2,7 @@
 
 namespace maw\controller;
 
-use \maw\core\CookieHandler;
+use \maw\core\SessionHandler;
 
 class Cart_Controller extends Controller
 {
@@ -40,7 +40,7 @@ class Cart_Controller extends Controller
                 $this->status = 2;
             else {
                 $cart[$productID] = isset($cart[$productID]) ? $cart[$productID] + $_POST['amount'] : $_POST['amount'];
-                CookieHandler::setMAWCookie('cart', serialize($cart));
+                SessionHandler::setMAWSession('cart', $cart);
                 $this->status = 3;
             }
         }
@@ -52,12 +52,12 @@ class Cart_Controller extends Controller
         $product = Product_Controller::getProduct($productID);
         if (!$product)
             $this->status = 1;
-        elseif ($product->amount < ($_POST['amount'] + CookieHandler::getMAWCookie('cart')[$productID]))
+        elseif ($product->amount < ($_POST['amount'] + SessionHandler::getMAWSession('cart')[$productID]))
             $this->status = 2;
         else {
             $cart = self::getCurrentCart();
             $cart[$productID] = $_POST['amount'];
-            CookieHandler::setMAWCookie('cart', serialize($cart));
+            SessionHandler::setMAWSession('cart', $cart);
             $this->status = 4;
         }
         $this->render();
@@ -67,7 +67,7 @@ class Cart_Controller extends Controller
     {
         $cart = self::getCurrentCart();
         unset($cart[$productID]);
-        CookieHandler::setMAWCookie('cart', serialize($cart));
+        SessionHandler::setMAWSession('cart', $cart);
         $this->status = 5;
         $this->render();
     }
@@ -113,7 +113,7 @@ class Cart_Controller extends Controller
         $messageAdmin2 .= "BIC: " . $_POST['bic'] . "\n";
 
         mail($to, $subject, $messageAdmin . $message . $messageAdmin2, $headers);
-        CookieHandler::removeMAWCookie('cart');
+        SessionHandler::destroyMAWSession();
         $this->status = 6;
         $this->render();
     }
@@ -195,7 +195,7 @@ class Cart_Controller extends Controller
 
     private static function getCurrentCart()
     {
-        return unserialize(CookieHandler::getMAWCookie('cart'));
+        return SessionHandler::getMAWSession('cart');
     }
 
     public static function getTotalProducts()
