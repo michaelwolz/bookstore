@@ -52,7 +52,7 @@ class Cart_Controller extends Controller
         $product = Product_Controller::getProduct($productID);
         if (!$product)
             $this->status = 1;
-        elseif ($product->amount < ($_POST['amount'] + SessionHandler::getMAWSession('cart')[$productID]))
+        elseif ($product->amount < $_POST['amount'])
             $this->status = 2;
         else {
             $cart = self::getCurrentCart();

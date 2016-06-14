@@ -2,8 +2,6 @@
 
 namespace maw\controller;
 
-use maw\core\Renderer;
-
 class Contact_Controller extends Controller
 {
     private $success = "";
